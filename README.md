@@ -102,6 +102,6 @@ The Deliverable 2 specification was written collaboratively. The file-level entr
 | `PlaylistMenuTest.java` | Luci, Sajjad | GenAI-assisted tests based on menu interaction and invalid input |
 | `AudioStackAppTest.java` | Luci, Sajjad | GenAI-assisted tests based on application startup and input-end handling |
 
-### GenAI Usage
+## GenAI Usage
 
 We used ChatGPT to help turn our Deliverable 2 specification into a small baseline Java prototype for us to build off of, adapt it to the staff-provided `LinkedChain`, draft Javadocs, generate JUnit test cases, and prepare documentation and use better phrasing. During development, JUnit identified failures involving playlist display/search comparisons, and we used those results to guide revisions. The project is based on the team's written specification and the instructor's supplied reusable chain, rather than a new data structure generated for the assignment. We used chatGPT in the end to format everything and make our code readable, fix any problems we couldn't resolve ourselves, and generate a more concise READ.ME.
