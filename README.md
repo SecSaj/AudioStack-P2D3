@@ -16,6 +16,7 @@ AudioStack is a Java console application for an ordered playlist of songs and po
 3. Right-click `AudioStackApp.java` and choose **Run As > Java Application**.
 4. Use the Console menu: **1** to add a song, **2** to add a podcast, **3** to display all items, **4** to remove by position, **5** to search by title, and **0** to quit.
 5. To execute the tests, right-click the `audiostack` package under `src` and choose **Run As > JUnit Test**. The tests use **JUnit 5** and are in the same `src/audiostack` package as the application classes.
+6. Before being able to JUnit test, you must first Add JUnit 5 library by right clicking the AudioStack project --> Build Path --> Add Libraries --> JUnit --> JUnit 5.
 
 Eclipse compiles the `.java` files automatically when **Build Automatically** is enabled. No Maven or external build tool is required. The automated test suite includes ordinary cases and invalid/edge cases. JUnit reports a failure whenever an actual result differs from the expected result; a successful program launch by itself does not establish that every test passes.
 
