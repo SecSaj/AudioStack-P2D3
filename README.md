@@ -10,6 +10,7 @@ AudioStack is a Java playlist manager for songs, podcasts, and audiobooks. All t
 2. Make sure **JUnit 5** is on the build path.
 3. Right-click `src/audiostack/AudioStackApp.java` → **Run As → Java Application**.
 4. To run all tests, right-click the `audiostack` package under `src` → **Run As → JUnit Test**.
+5. If the project does not import directly into Eclipse, create a new Java 17 project, copy the src/audiostack files into it, and add JUnit 5 to the build path before running the tests.
 
 ## System Diagram
 
