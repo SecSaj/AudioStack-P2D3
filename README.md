@@ -13,7 +13,7 @@ AudioStack is a Java playlist manager for songs, podcasts, and audiobooks. All t
 
 ## System Diagram
 
-![AudioStack system diagramd](docs/system-diagram.png)
+<img width="1225" height="1284" alt="system-diagram" src="https://github.com/user-attachments/assets/0c094b76-53d4-4f0b-9644-27718df5f5f8" />
 
 ## Attribution
 
